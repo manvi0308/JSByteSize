@@ -46,7 +46,7 @@ function convert(from, to, amount) {
   //^ NEW CONCEPT LEARNED
   const headers = new Headers();
   headers.append("Content-Type", "application/json");
-  headers.append("X-Api-Key", "LkZz8F82+y9oo3V5whNJcg==rqyh6zzTcWfm6XuA");
+  headers.append("X-Api-Key", ""); // API KEY INSIDE ""
 
   fetch(url, {
     method: "GET",
