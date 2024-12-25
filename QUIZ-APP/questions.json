@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "What's the capital of india",
+      "option1": "Kolkata",
+      "option2": "New Delhi",
+      "option3": "Lucknow",
+      "option4": "Noida"
+    },
+    {
+      "id": 1,
+      "question": "What's the  full form of UPI ",
+      "option1": "Unified Payment Interface",
+      "option2": "Union Payment India",
+      "option3": "United Payment India",
+      "option4": "United Payments India"
+    },
+    {
+      "id": 1,
+      "question": "What's the full form of SQL",
+      "option1": "Structured Query language",
+      "option2": "Structurable query lingo",
+      "option3": "Structure questions language",
+      "option4": "None of the above"
+    },
+    {
+      "id": 1,
+      "question": "What's the starting point of java program",
+      "option1": "main method",
+      "option2": "class declaration",
+      "option3": "package declaration",
+      "option4": "print statements"
+    }
+  ]
+}
