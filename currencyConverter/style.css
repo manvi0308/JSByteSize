@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Added for better box model handling */
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(4, 4, 38);
+}
+
+h1 {
+  text-align: center; /* Center the text */
+  color: white; /* Change text color to white for better contrast */
+  margin-bottom: 20px; /* Space between the heading and the form */
+}
+
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  width: 50vw;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px; /* Added rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.form label {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 14%;
+}
+
+.form select {
+  padding: 8px 12px;
+  width: 70%;
+  margin-left: 14%;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 8px 12px;
+  width: 70%;
+  margin-left: 14%;
+  margin-bottom: 20px;
+}
+
+.form button {
+  width: 50%;
+  margin-left: 25%;
+  padding: 12px;
+  font-size: 17px;
+  border-radius: 25px;
+  background-color: rgb(5, 5, 53);
+
+  color: white;
+  border: none;
+  align-items: center;
+}
+
+.form p{
+  margin-left: 14%;
+  font-size: 18px;
+}
+
+#none{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .form {
+    width: 80vw; /* Increase width on smaller screens */
+  }
+  
+  .form select, .form button {
+    width: 90%; /* Make selects and button wider */
+    margin-left: 5%; /* Center align them */
+  }
+  
+  .form label {
+    margin-left: 5%; /* Center align labels */
+  }
+}
+
+@media (max-width: 480px) {
+  .form {
+    height: auto; /* Allow form to adjust height */
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  .form label {
+    font-size: 18px; /* Slightly smaller font size */
+  }
+
+  .form select, .form button {
+    font-size: 16px; /* Slightly smaller font size for selects and button */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
